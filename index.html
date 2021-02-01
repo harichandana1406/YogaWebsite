@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="home.css" />
+<title>One Mantra</title>  
+
+<header >
+    <div class="wrapper">
+           <ul class="nav-area">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About</a></li>
+            <li><a href="#" onclick="toggleModal();">Events</a></li>
+            <li><a href="#" onclick="toggleModal();">Articles</a></li>
+            <li><a href="#" onclick="toggleModal();">Services</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact</a></li>
+
+        </ul>
+    </div>
+</header> 
+<body>
+    <h1></h1>
+    <div class="containall">
+        <h1>One MANTRA</h1>
+    </div>
+    <h1 class="main">Practice Anytime,
+    </h1>
+    <h1 class="main2">Anywhere</h1>
+    <button class="signup">Sign Up</button>
+    
+    <div class="matter">
+        <h2>Learn step-by-step best yoga </h2>
+        <h2>poses for beginners.</h2>
+    </div >
+    <button class="show-modal">Log In</button>
+   
+    <div class="modal hidden">
+        <div id="login-error-msg-holder">
+            <p id="login-error-msg">
+                Invalid Username<span id="error-msg-second-line">and/or password</span>
+
+            </p>
+        </div>
+        <button class="close-modal">&times;</button>
+        <form id="login-form">
+        <h2 class="loginf">Login Form</h2>
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button class="submit" type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember">Remember me 
+        </label>
+    <button type="button1" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+        </form>
+    </div>
+    
+    <div class="overlay hidden"></div>
+    <script src="home.js"></script>
+    <h2 class="welcome_note">Welcome to our Beginner Yoga Pose Library!Here you can kick-start your yoga routine,by discovering new yoga poses and developing a deeper understanding of the poses you practice regularly.We will help you to learn step-by-step instructions of how to practice each pose safely and with proper alignment.Understand benefits,Beginner tips and Contraindictions and Cautions of each asana.</h2>
+    <div class="Img1">
+        <a target="_blank" href="mountain-pose.jpg">
+            <img src="trianglepose.jpg" alt="mountain" width="330" height="290">
+          </a>
+     <h3 class="mp"> Triangle Pose</h3>
+    </div>
+    <div class="Img1">
+        <a target="_blank" href="Bound-Angle-Pose-Baddha-Konasana.jpg">
+            <img src="Bound-Angle-Pose-Baddha-Konasana.jpg" alt="tree" width="330" height="290">
+          </a>
+     <h3 class="mp">Bound Angle</h3>
+    </div>
+    <div class="Img1">
+        <a target="_blank" href="mountain-pose.jpg">
+            <img src="mountain-pose.jpg" alt="tree" width="330" height="290">
+          </a>
+     <h3 class="mp">Mountain Pose</h3>
+    </div>
+    <div class="Img2">
+        <a target="_blank" href="Standing-forwardbend.jpg">
+            <img src="Standing-forwardbend.jpg" alt="tree" width="330" height="290">
+          </a>
+     <h3 class="mp">Standing Forward Bend Pose</h3>
+    </div>
+    <div class="Img2">
+        <a target="_blank" href="standing-pose.jpg">
+            <img src="standing-pose.jpg" alt="tree" width="330" height="290">
+          </a>
+     <h3 class="mp">Standing Pose</h3>
+    </div>
+    <div class="Img2">
+        <a target="_blank" href="Padmasana-Yoga The lotus posture.jpg">
+            <img src="Padmasana-Yoga The lotus posture.jpg" alt="tree" width="330" height="290">
+          </a>
+     <h3 class="mp">Lotus Pose</h3>
+    </div>
+ 
+<section class="footerp">
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <h4 class="white-text">Contact Us</h4>
+                    <p class="grey-text ">Address :</p>
+                    <p class="grey-text ">Phone :</p>
+                </div>
+          <div class="col2">
+              <h4 class="white-text">Social Media Links</h4>
+              <ul>
+                  <li>
+                      <a class="grey-text" href="javascript:void(0)" 
+                      clickon="toggleModal();">Facebook</a>
+                  </li>
+                  <li>
+                    <a class="grey-text " href="javascript:void(0)" >Instagram</a>
+                </li>
+                <li>
+                    <a class="grey-text" href="javascript:void(0)" >Twitter</a>
+                </li>
+                <li>
+                    <a class="grey-text" href="javascript:void(0)" >Whatsapp</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        </div>
+    </footer>
+</section>
+    
+
+</body> 
+</html>
+
