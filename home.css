@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+  background: url(nice.jpg) no-repeat;
+  background-color: rgb(93, 188, 235) ;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
+}
+.containall{
+  height:80px;
+  width: auto;
+  background: url("icon.png") no-repeat ;
+ 
+  background-color: rgb(120, 138, 136) ;
+  background-size:6%;
+
+}
+.containall h1{
+
+  color: rgb(255, 255, 255);
+  margin-left: 18mm;
+  font-size: 300%;
+  font-family: "Comic Sans MS", cursive, sans-serif,"Trebuchet MS",Helvetica, sans-serif;
+  font-style: initial;
+  font-variant: normal;
+  padding: 8px 35px;
+}
+.main{
+ 
+   color: rgb(32, 76, 106);
+   font-family: serif;
+  font-size: 400%;
+  margin-top: 100px;
+  margin-left: 40px;
+  overflow-wrap: break-word;
+}
+.main2{
+ 
+  font-family: serif;
+  color: rgb(36, 65, 84);
+  font-size: 380%;
+  padding: 7px 80px;
+}
+.matter{
+  font-family: cursive;
+  color: rgb(163, 191, 211);
+  font-size: 120%;
+  margin-left: 40px;
+}
+/*
+padding: px px;
+padding: 15px 10px;
+ img.one {
+    height: auto;
+    width: auto;
+  }
+.background{
+     background-color: rgb(242, 242, 243);
+    height: 100%;
+    background-attachment: fixed;
+}
+*/
+.signup{
+ background-color:rgb(53, 124, 162);
+  border-radius: 6cm;
+  color: rgb(17, 17, 17);
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: auto;
+  position:relative; 
+  left:1000px;
+  top:70px; 
+}
+.show-modal
+{
+  background-color: rgb(71, 129, 157);
+  border-radius: 6cm;
+  color: rgb(17, 17, 17);
+  padding: 15px 23px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: auto;
+  position:relative; 
+  left:1000px;
+  top:0px; 
+}
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 5%;
+}
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  background-color: rgb(109, 187, 223);
+  text-decoration: none;
+  font-size: 130%;
+  font-family: poppins;
+  padding: 5px 20px;
+  color: rgb(81, 8, 111);
+}
+.nav-area li a:hover {
+  background: #fff;
+  color: rgb(64, 148, 232);
+}
+.loginf{
+  margin:30px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size:210%;
+
+}
+input[type=text],input[type=password]
+{
+  width:90%;
+  padding: 12px 10px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  padding: 12px 24px;
+  margin: 8px 0;
+  width: 17%;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal{
+  padding: 12px;
+  position:absolute;
+  top:36%;
+  left:40%;
+  transform: translate(-40%,-40%);
+  width:30%;
+  background-color:white;
+  padding: 4%;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.hidden{
+  display:none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+#login-error-msg-holder{
+  width: 100%;
+  height: 100%;
+  display:grid;
+  justify-items: center;
+  align-items: center;
+}
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+.welcome_note{
+  color: rgb(235, 221, 233);
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-right: 110px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+div.Img1{
+  margin: 60px;
+  float: right;
+  width: 320px;
+ 
+}
+div.Img2{
+  margin: 60px;
+  float: left;
+  width: 320px;
+}
+.mp{
+text-align: center;
+color: lightblue;
+font-size: 40px;
+}
+.page-footer {
+  margin-top: 1000px;
+  padding: 10px;
+  padding-bottom: 20px;
+  background: #9c87a7 !important;
+}
+.col1{
+  margin-left: 16%;
+  margin-top:3%;
+}
+.col2
+{
+  margin-left: 66%; 
+}
+h4.white-text{
+ font-size: 150%;
+}
